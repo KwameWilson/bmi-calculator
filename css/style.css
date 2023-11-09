@@ -18,6 +18,7 @@ header {
     height: 737px;
     padding: 75px 298px 200px 116px;
     width: 978px;
+    position: relative;
 }
 
 header span {
@@ -54,3 +55,127 @@ header h5 {
     line-height: 150%;
     /* 24px */
 }
+
+article.calculator {
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 16px 32px 56px 0 #8faecf40;
+    padding: 32px;
+    width: 564px;
+    position: absolute;
+    top: 167px;
+    bottom: 80px;
+    left: 712px;
+}
+
+
+article h3 {
+    color: #253347;
+    margin-bottom: 32px;
+}
+
+.flex-system {
+    display: flex;
+    gap: 24px;
+}
+
+
+article input[type="radio"] {
+    width: 31px;
+    height: 31px;
+    border: 1px solid #D8E2E7;
+}
+
+article label[for="Metric"],
+article label[for="Imperial"] {
+    color: #253347;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Inter;
+    margin-left: 18px;
+    font-weight: 600;
+}
+
+article div:nth-child(2).flex-system { 
+    margin-bottom: 32px;
+}
+
+
+article div:nth-child(3).flex {
+    margin-bottom: 32px;
+    display: flex;
+    gap: 24px;
+}
+
+article label[for="Height"],
+article label[for="Weight"] {
+    color: #5E6E85;
+    display: block;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 0px;
+    margin-bottom: 8px;
+}
+
+/* article input[placeholder="cm"], 
+article input[placeholder="kg"] {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.2px;
+}*/
+
+input[type="text"] {
+    appearance: none;
+    padding: 20px 24px;
+    border: 1px solid #D8E2E7;
+    border-radius: 12px;
+    font-size: 24px;
+}
+
+.flex-bottom {
+    background: linear-gradient(90deg, #345FF6 0%, #587DFF 100%);
+    border-radius: 16px 999px 999px 16px;
+    color: #FFF;
+    display: flex;
+    gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
+
+    padding: 32px;
+    width: 500px;
+}
+
+.flex-bottom div h4:first-child {
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+
+}
+
+.flex-bottom div h1:nth-child(2) {
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%;
+    letter-spacing: -3.2px;
+
+}
+
+.flex-bottom div:nth-child(2) h5 {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 21px */
+}
+
+.flex-bottom div:nth-child(2) h5 span {
+    display: inline-block;
+}
+

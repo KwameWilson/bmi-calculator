@@ -255,15 +255,70 @@ section.plan {
 }
 
 .plan .grid-item h5 {
+    color: #5E6E85;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    letter-spacing: ;
+    letter-spacing: 150%;
 }
 
 main span:nth-child(3) {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     position: absolute;
     right: 550px;
     top: -180px;
+}
+
+section.limitation {
+    width: 1160px;
+    margin: 0 auto 120px;
+}
+
+section.limitation .flex-limitation {
+    display: flex;
+    gap: 132px;
+}
+
+section.limitation .flex-limitation h1 {
+    /* border: 2px solid red; */
+    color: #253347;
+    font-size: 48px;
+    line-height: 110%;
+    font-weight: 600;
+    letter-spacing: -2.4px;
+    margin-bottom: 35px;
+}
+
+section.limitation .flex-limitation h5 {
+    color: #5E6E85;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 400;
+}
+
+section.limitation .flex-limitation div:last-child {
+    /* border: 1px solid tomato; */
+    border-radius: 16px;
+    padding: 32px;
+    box-shadow: 16px 32px 56px 0px rgba(143, 174, 207, 0.25);
+}
+
+
+
+section.limitation .flex-limitation div:last-child div:first-child {
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+section.limitation .flex-limitation div:last-child div:first-child span {
+    display: inline-block;
+}
+
+section.limitation .flex-limitation div:last-child div:first-child h3 {
+    color: #253347;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 16px;
+    letter-spacing: -1px;
 }

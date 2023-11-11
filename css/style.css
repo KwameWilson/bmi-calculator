@@ -329,10 +329,11 @@ section.limitation .flex-limitation div:nth-child(2) div:first-child h3 {
 }
 
 section.limitation .limitation-middle {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     gap: 32px;
     margin-left: 398px;
+    margin-bottom: 24px;
     /* width: 762px; */
 }
 
@@ -374,4 +375,47 @@ section.limitation .limitation-middle .right h5 {
     font-size: 16px;
     line-height: 150%;
     font-weight: 400;
+}
+
+section.limitation .limitation-bottom {
+    display: flex;
+    gap: 32px;
+    width: 762px;
+    margin: 0 auto 0;
+}
+
+section.limitation .limitation-bottom .left div:first-child,
+section.limitation .limitation-bottom .right div:first-child {
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 16px;
+}
+
+
+section.limitation .limitation-bottom .left div:first-child h3,
+section.limitation .limitation-bottom .right div:first-child h3 {
+    /* border: 2px solid blue; */
+    color: #253347;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    /* margin-left: 16px; */
+    letter-spacing: -1px;
+    /* border: 2px solid red; */
+}
+
+section.limitation .limitation-bottom .left h5,
+section.limitation .limitation-bottom .right h5 {
+    color: #5E6E85;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 400;
+    /* border: 2px solid purple; */
+}
+
+section.limitation .limitation-bottom .left,
+section.limitation .limitation-bottom .right {
+    border-radius: 16px;
+    padding: 32px;
+    box-shadow: 16px 32px 56px 0px rgba(143, 174, 207, 0.25);
 }

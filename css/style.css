@@ -274,9 +274,12 @@ section.limitation {
     margin: 0 auto 120px;
 }
 
+
 section.limitation .flex-limitation {
     display: flex;
     gap: 132px;
+    justify-content: space-around;
+    margin-bottom: 32px;
 }
 
 section.limitation .flex-limitation h1 {
@@ -301,24 +304,74 @@ section.limitation .flex-limitation div:last-child {
     border-radius: 16px;
     padding: 32px;
     box-shadow: 16px 32px 56px 0px rgba(143, 174, 207, 0.25);
+    margin-right: 99px;
 }
 
 
 
-section.limitation .flex-limitation div:last-child div:first-child {
+section.limitation .flex-limitation div:nth-child(2) div:first-child {
     /* border: 2px solid red; */
     display: flex;
+    gap: 16px;
 }
 
-section.limitation .flex-limitation div:last-child div:first-child span {
+section.limitation .flex-limitation div:nth-child(2) div:first-child span {
     display: inline-block;
 }
 
-section.limitation .flex-limitation div:last-child div:first-child h3 {
+section.limitation .flex-limitation div:nth-child(2) div:first-child h3 {
     color: #253347;
     font-size: 20px;
     font-weight: 600;
     line-height: normal;
-    margin-left: 16px;
+    /* margin-left: 16px; */
     letter-spacing: -1px;
+}
+
+section.limitation .limitation-middle {
+    border: 2px solid red;
+    display: flex;
+    gap: 32px;
+    margin-left: 398px;
+    /* width: 762px; */
+}
+
+section.limitation .limitation-middle .left {
+    border-radius: 16px;
+    padding: 32px;
+    box-shadow: 16px 32px 56px 0px rgba(143, 174, 207, 0.25);
+}
+
+section.limitation .limitation-middle .right {
+    border-radius: 16px;
+    padding: 32px;
+    box-shadow: 16px 32px 56px 0px rgba(143, 174, 207, 0.25);
+}
+
+section.limitation .limitation-middle .left div:first-child,
+section.limitation .limitation-middle .right div:first-child {
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 16px;
+}
+
+section.limitation .limitation-middle .left div:first-child h3,
+section.limitation .limitation-middle .right div:first-child h3 {
+    /* border: 2px solid red;  */
+    color: #253347;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    /* margin-left: 16px; */
+    letter-spacing: -1px;
+    /* border: 2px solid red; */
+}
+
+section.limitation .limitation-middle .left h5,
+section.limitation .limitation-middle .right h5 {
+    /* border: 2px solid red; */
+    color: #5E6E85;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 400;
 }
